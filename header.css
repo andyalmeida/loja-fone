@@ -1,4 +1,7 @@
 header {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #e24647;
   color: #fff;
   overflow: hidden;
