@@ -28,5 +28,6 @@
 }
 
 .product-store.-button {
-  margin-top: 100px;
+  display: inline-block;
+  margin: 100px 40px 0 -8px;
 }
