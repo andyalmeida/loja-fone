@@ -2,11 +2,26 @@
   font-family: "Roboto", Arial, sans-serif;
   color: #fff;
   font-size: 20px;
+  width: 550px;
+  float: right;
 }
 
 .product-store.-title {
   font-size: 25px;
   margin: 140px 0 100px;
+}
+
+.product-store.-image-container {
+  position: absolute;
+  float: left;
+  top: 195px;
+  left: 0;
+  background-color: #fff;
+  width: 600px;
+  height: 575px;
+  border-radius: 0 150px 150px 0;
+  padding: 28px 0 0 105px;
+  box-sizing: border-box;
 }
 
 .product-store.-rating {
@@ -30,4 +45,6 @@
 .product-store.-button {
   display: inline-block;
   margin: 100px 40px 0 -8px;
+  float: none;
+  width: auto;
 }
